@@ -1,0 +1,132 @@
+*{
+    font-family: 'Roboto';
+    margin: 0px 0px 0px 0px;
+}
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    border: 20px solid #1F2937;
+}
+.logo {
+    font-weight: 700;
+}
+.headerlinks {
+    display: flex;
+    gap:20px;
+    align-items: flex-end;
+}
+
+.title {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid #1F2937;
+    padding: 5em;
+}
+
+img.van {
+    width: 50%;
+}
+
+.info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thumbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2em;
+}
+
+.thumbdiv {
+    padding: 2em;
+    font-size: 10px;
+    flex-wrap: wrap;
+    width: 100px;
+    justify-content: center;
+}
+
+.thumb {
+    border: 1px solid rebeccapurple;
+    border-radius: 25px;
+    padding: 2em;
+    width: 50px;
+}
+
+#thumb_desc {
+    color: #1F2937;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 36px #E5E7EB;
+    padding: 2em;
+    padding: 50px 150px 50px 150px;
+    font-size: 36px;
+    font-style:italic;
+    font-weight: 300;
+}
+
+span {
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.calltoaction {
+    background-color: #3882F6;
+    margin: 60px 160px 60px 160px;
+    padding: 30px;
+    border: 300px #F9FAF8;
+    border-radius: 25px;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#call, #sign {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    border: 36px #1F2937;
+    
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 0.1em;
+}
+
+#footertext{
+    padding: 20px 20px 20px 20px;
+    font-size: 10px;
+}
